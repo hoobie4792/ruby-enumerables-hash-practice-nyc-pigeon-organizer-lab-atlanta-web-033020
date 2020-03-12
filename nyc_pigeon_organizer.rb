@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
           hash[name][key] = []
         end
         
-        hash[name][key].push(new_value)
+        hash[name][key] = new_value
         
       end
     end
